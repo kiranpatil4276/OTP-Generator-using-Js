@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #1b76f2;
+  }
+  .container {
+    background-color: #1a1820;
+    width: min(37.5em, 90%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+    border-radius: 0.5em;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  button {
+    font-size: 1em;
+    background-color: #1b76f2;
+    display: block;
+    margin: 2em auto;
+    padding: 1em;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+  }
+  #otpDisplay {
+    font-size: 1em;
+    background-color: #2a292e;
+    color: #ffffff;
+    letter-spacing: 1em;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .social-media{
+    position: absolute;
+display: flex;
+justify-content: center;
+margin-top: 470px;
+position: relative;
+column-gap: 11px;
+  }
+  .icon1{
+height: 50px;
+width: 50px;
+background-color: white;
+border-radius: 41px;
+background-size: cover;
+  }
+  .icon2{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 41px;
+      }
+      .icon3{
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 41px;
+          }
+          .icon11{
+          font-size: 38px;
+          padding-left: 7px;
+          margin-top: 5px;
+
+          }
+          .icon12{
+            font-size: 38px;
+            padding-left: 7px;
+            margin-top: 5px;
+  
+            }
+            .icon13{
+                font-size: 38px;
+                padding-left: 7px;
+                margin-top: 5px;
+      
+                }
